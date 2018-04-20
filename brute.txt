@@ -1,0 +1,12 @@
+/admin/
+/yonetim/
+/panel/
+/wp-admin/
+/cms/
+/administrator/
+/login/
+/manage/
+/management/
+/backend/
+/extranet/
+/backoffice/
