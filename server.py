@@ -2,7 +2,6 @@ import requests
 
 while True:
     print("""
-
  #############################################
 #                                             #
 #      Server Admin Panel Finder v1.0         #
@@ -10,7 +9,6 @@ while True:
 #         Coded by Ahmet Ümit BAYRAM          #
 #                                             #
  #############################################
-
     """)
 
     site = input("siteyi gir:")
