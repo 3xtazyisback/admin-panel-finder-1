@@ -13,7 +13,7 @@ while True:
 
     site = input("siteyi gir:")
     url = "https://api.viewdns.info/reverseip/?host="
-    api_key = "&apikey=1390c310cd09636fa8085a63d5b6feffe0702c46&output=json"
+    api_key = "&apikey=6082fca5a0251ed2b96b84620dcfedbdb1fcfba7&output=json"
     son_url = url + site + api_key
     responsec = requests.get(son_url)
     json_data = responsec.json()
@@ -44,4 +44,4 @@ while True:
                     print(son_liste.index(i)+1,i, "bağlantı yok")
                     continue
             finally:
-                    dosya.close()
+                dosya.close()
