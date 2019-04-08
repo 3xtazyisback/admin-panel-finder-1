@@ -44,4 +44,4 @@ while True:
                     print(son_liste.index(i)+1,i, "bağlantı yok")
                     continue
             finally:
-                dosya.close()
+                    dosya.close()
